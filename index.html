@@ -1,1 +1,293 @@
-Pagina Index
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de José Pascual Martín, estudiante de Desarrollo de Aplicaciones Web.">
+    <title>Pascual Martín | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- CABECERA Y NAVEGACIÓN -->
+    <header class="cabecera">
+        <a href="#inicio" class="logo"><span class="logo-marca">PM</span>Pascual Martín</a>
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="acciones">
+            <button type="button" id="boton-tema" class="boton-icono" aria-label="Cambiar a modo oscuro"><i class="bx bx-moon"></i></button>
+            <button type="button" id="boton-menu" class="boton-icono boton-menu" aria-label="Abrir menú" aria-expanded="false"><i class="bx bx-menu"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- INICIO -->
+        <section id="inicio" class="inicio">
+            <div class="inicio-texto">
+                <p class="saludo">Hola, soy</p>
+                <h1 class="nombre">Jose Pascual Martín</h1>
+                <h2 class="profesion">Estudiante de Desarrollo de Aplicaciones Web</h2>
+                <p class="inicio-descripcion">
+                    Me estoy formando para crear aplicaciones web completas, desde la interfaz que ve el usuario
+                    hasta la lógica y los datos que hay detrás. Aquí encontrarás quién soy, en qué trabajo y cómo contactar conmigo.
+                </p>
+                <div class="inicio-botones">
+                    <a href="#proyectos" class="btn">Ver proyectos</a>
+                    <a href="#contacto" class="btn btn-secundario">Contactar</a>
+                </div>
+            </div>
+            <div class="inicio-foto">
+                <img src="img/perfil.jpg" alt="Foto de perfil de José Pascual Martín" width="320" height="320">
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="sobre-mi">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <p class="subtitulo-seccion">Un poco de quién soy y hacia dónde voy</p>
+
+            <div class="sobre-mi-contenido">
+                <div class="sobre-mi-texto">
+                    <p>
+                        Me llamo Jose Pascual Martín y estudio el Ciclo Formativo de Grado Superior en
+                        <strong>Desarrollo de Aplicaciones Web (DAW)</strong> en modalidad semipresencial, dentro de la
+                        Formación Profesional de la Comunitat Valenciana. Compagino los estudios con mi trabajo como técnico de
+                        actividades acuáticas en el Ayuntamiento de Sagunto, algo que me ha enseñado a organizarme bien y a ser constante.
+                    </p>
+                    <p>
+                        Lo que más me gusta de la programación es ver cómo una idea se convierte en algo que funciona y que
+                        otras personas pueden usar. Disfruto especialmente con el desarrollo web: maquetar con HTML y CSS,
+                        resolver problemas con Java y entender cómo se organiza un proyecto con metodologías ágiles.
+                    </p>
+                    <p>
+                        Mi objetivo profesional es trabajar como <strong>desarrollador web full stack</strong>, participando
+                        en proyectos reales dentro de un equipo, y seguir aprendiendo tecnologías como JavaScript, bases de datos
+                        , frameworks modernos y la integracion de la IA en proyectos. Este portfolio es el primer paso: un lugar donde ir dejando constancia de lo que aprendo.
+                    </p>
+                </div>
+
+                <aside class="sobre-mi-lateral">
+                    <img src="img/sobre-mi.jpg" alt="José Pascual Martín sentado en un taburete" class="foto-sobre-mi" width="672" height="900" loading="lazy">
+                    <ul class="datos">
+                        <li><i class="bx bx-user"></i><span>José Pascual Martín Rodríguez</span></li>
+                        <li><i class="bx bx-book-open"></i><span>CFGS Desarrollo de Aplicaciones Web</span></li>
+                        <li><i class="bx bx-map"></i><span>Comunitat Valenciana, España</span></li>
+                        <li><i class="bx bx-target-lock"></i><span>Objetivo: desarrollador web full stack</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <!-- FORMACIÓN Y EXPERIENCIA -->
+        <section id="formacion" class="formacion">
+            <h2 class="titulo-seccion">Formación y experiencia</h2>
+            <p class="subtitulo-seccion">Mi recorrido académico y profesional</p>
+
+            <h3 class="titulo-bloque"><i class="bx bxs-graduation"></i> Formación</h3>
+            <div class="linea-tiempo">
+                <article class="hito">
+                    <span class="hito-fecha">2024 – 2026</span>
+                    <h3>CFGS Enseñanza y Animación Sociodeportiva (TSEAS)</h3>
+                    <p class="hito-centro">Ciclo Formativo de Grado Superior</p>
+                    <p>
+                        Técnico Superior en Enseñanza y Animación Sociodeportiva, de la familia profesional de
+                        Actividades Físicas y Deportivas.
+                    </p>
+                </article>
+                <article class="hito">
+                    <span class="hito-fecha">2023 – Actualidad</span>
+                    <h3>CFGS Desarrollo de Aplicaciones Web (DAW)</h3>
+                    <p class="hito-centro">Formación Profesional semipresencial · Comunitat Valenciana</p>
+                    <p>
+                        Módulos de Programación (Java), Diseño de Interfaces Web, Proyecto Intermodular, bases de datos,
+                        entornos de desarrollo y despliegue de aplicaciones.
+                    </p>
+                </article>
+                <article class="hito">
+                    <span class="hito-fecha">2014 – 2016</span>
+                    <h3>Grado en Fotografía y Creación Audiovisual</h3>
+                    <p class="hito-centro">Primer y segundo curso</p>
+                    <p>
+                        Formación en fotografía y producción audiovisual, que me aportó sensibilidad por la imagen,
+                        la composición y el diseño visual.
+                    </p>
+                </article>
+                <article class="hito">
+                    <span class="hito-fecha">2004 – 2010</span>
+                    <h3>Ingeniería Técnica en Topografía</h3>
+                    <p class="hito-centro">Universitat Politècnica de València (UPV)</p>
+                    <p>
+                        Estudios técnicos centrados en la medición, la representación del terreno y el tratamiento de datos.
+                    </p>
+                </article>
+            </div>
+
+            <h3 class="titulo-bloque"><i class="bx bxs-briefcase"></i> Experiencia laboral</h3>
+            <div class="linea-tiempo">
+                <article class="hito">
+                    <span class="hito-fecha">2008 – Actualidad</span>
+                    <h3>Técnico de actividades acuáticas</h3>
+                    <p class="hito-centro">Ayuntamiento de Sagunto</p>
+                    <p>
+                        Trabajo de forma ininterrumpida desde 2008 en el servicio municipal de actividades acuáticas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="proyectos">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <p class="subtitulo-seccion">Trabajos que he realizado durante el ciclo</p>
+
+            <div class="proyectos-grid">
+                <article class="proyecto">
+                    <i class="bx bx-id-card proyecto-icono"></i>
+                    <h3>Portfolio personal</h3>
+                    <p>
+                        Esta misma web. Sitio de una sola página maquetado desde cero con HTML semántico y CSS propio
+                        (variables, Flexbox, Grid y media queries), con menú adaptado a móvil y modo oscuro hecho con JavaScript.
+                        Publicado con GitHub Pages.
+                    </p>
+                    <ul class="etiquetas">
+                        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>GitHub Pages</li>
+                    </ul>
+                    <a href="https://github.com/JosePascualMR/mi-portfolio" target="_blank" rel="noopener" class="proyecto-enlace">
+                        Ver repositorio <i class="bx bx-right-arrow-alt"></i>
+                    </a>
+                </article>
+
+                <article class="proyecto">
+                    <i class="bx bx-git-branch proyecto-icono"></i>
+                    <h3>Práctica de control de versiones con Git</h3>
+                    <p>
+                        Repositorio local en el que practiqué el flujo básico de Git desde la terminal: <code>init</code>,
+                        <code>add</code>, <code>commit</code>, consulta del historial con <code>log</code>, uso de
+                        <code>.gitignore</code> y recuperación de versiones anteriores de los archivos.
+                    </p>
+                    <ul class="etiquetas">
+                        <li>Git</li><li>Terminal</li><li>Control de versiones</li>
+                    </ul>
+                </article>
+
+                <article class="proyecto">
+                    <i class="bx bx-coffee proyecto-icono"></i>
+                    <h3>Ejercicios de programación en Java</h3>
+                    <p>
+                        Colección de programas del módulo de Programación: estructuras de control, funciones y procedimientos,
+                        arrays y estructuras de datos dinámicas. Me han servido para asentar la lógica de programación y
+                        aprender a dividir un problema en partes pequeñas.
+                    </p>
+                    <ul class="etiquetas">
+                        <li>Java</li><li>POO</li><li>Algoritmia</li>
+                    </ul>
+                </article>
+
+                <article class="proyecto">
+                    <i class="bx bxl-trello proyecto-icono"></i>
+                    <h3>Planificación ágil con Trello</h3>
+                    <p>
+                        Tablero de Trello para organizar un proyecto siguiendo metodologías ágiles: definición de listas
+                        por estado, tarjetas con tareas, etiquetas de prioridad, fechas límite y checklists, aplicando
+                        conceptos de Scrum y Kanban.
+                    </p>
+                    <ul class="etiquetas">
+                        <li>Trello</li><li>Scrum</li><li>Kanban</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="habilidades">
+            <h2 class="titulo-seccion">Habilidades</h2>
+            <p class="subtitulo-seccion">Lo que sé hacer y con lo que trabajo</p>
+
+            <div class="habilidades-grid">
+                <article class="grupo-habilidades">
+                    <h3><i class="bx bx-code-alt"></i> Lenguajes</h3>
+                    <ul>
+                        <li><i class="bx bxl-html5"></i> HTML5</li>
+                        <li><i class="bx bxl-css3"></i> CSS3</li>
+                        <li><i class="bx bxl-java"></i> Java</li>
+                        <li><i class="bx bxl-javascript"></i> JavaScript (básico)</li>
+                    </ul>
+                </article>
+
+                <article class="grupo-habilidades">
+                    <h3><i class="bx bx-wrench"></i> Herramientas</h3>
+                    <ul>
+                        <li><i class="bx bxl-git"></i> Git</li>
+                        <li><i class="bx bxl-github"></i> GitHub y GitHub Pages</li>
+                        <li><i class="bx bxl-visual-studio"></i> Visual Studio Code</li>
+                        <li><i class="bx bxl-trello"></i> Trello</li>
+                    </ul>
+                </article>
+
+                <article class="grupo-habilidades">
+                    <h3><i class="bx bx-chip"></i> Tecnologías</h3>
+                    <ul>
+                        <li><i class="bx bx-data"></i> Bases de datos (SQL)</li>
+                        <li><i class="bx bx-devices"></i> Diseño web responsive</li>
+                        <li><i class="bx bx-git-repo-forked"></i> Control de versiones</li>
+                        <li><i class="bx bx-terminal"></i> Línea de comandos</li>
+                    </ul>
+                </article>
+
+                <article class="grupo-habilidades">
+                    <h3><i class="bx bx-group"></i> Soft skills</h3>
+                    <ul>
+                        <li><i class="bx bx-group"></i> Trabajo en equipo</li>
+                        <li><i class="bx bx-time-five"></i> Organización y constancia</li>
+                        <li><i class="bx bx-bulb"></i> Resolución de problemas</li>
+                        <li><i class="bx bx-book-reader"></i> Aprendizaje autónomo</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <p class="subtitulo-seccion">¿Hablamos? Estaré encantado de responderte</p>
+
+            <div class="contacto-grid">
+                <a href="mailto:josmarrod4@alu.edu.gva.es" class="tarjeta-contacto">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email</h3>
+                    <p>josmarrod4@alu.edu.gva.es</p>
+                </a>
+                <a href="https://github.com/JosePascualMR" target="_blank" rel="noopener" class="tarjeta-contacto">
+                    <i class="bx bxl-github"></i>
+                    <h3>GitHub</h3>
+                    <p>github.com/JosePascualMR</p>
+                </a>
+                <div class="tarjeta-contacto">
+                    <i class="bx bx-map"></i>
+                    <h3>Ubicación</h3>
+                    <p>Comunitat Valenciana, España</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie">
+        <div class="redes">
+            <a href="https://github.com/JosePascualMR" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="mailto:josmarrod4@alu.edu.gva.es" aria-label="Correo electrónico"><i class="bx bx-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 José Pascual Martín · Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
